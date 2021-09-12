@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3</title>
+</head>
+<body>
+<form name="genderform">
+    <h3>Chọn giới tính của bạn</h3><br>
+    <input type="radio" name="gender" value="nam">Nam
+    <br>
+    <input type="radio" name="gender" value="nữ">Nữ
+    <br>
+    <input type="button" name="show" value="Hiển thị" onclick="gendershow()">
+</form>
+
+<script language="JavaScript" src="bai3.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+
+function btlogin(){
+    var name= document.getElementById("username").value;
+    var pass=document.getElementById("pass").value;
+    document.write("hello"+name+pass);
+    if (name=="admin" && pass=="1")
+    {
+        alert("Đăng nhập thành công:\n username là: "+ name +"\n password là: "+ pass);
+    }
+    else
+    {
+        alert("Sai tài khoản hoặc mật khẩu");
+    }
+}

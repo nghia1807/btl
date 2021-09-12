@@ -1,0 +1,9 @@
+function gendershow(){
+   var checkbox=document.getElementsByName('gender');
+   for (var i=0;i<checkbox.length;i++)
+   {
+       if (checkbox[i].checked==true){
+           alert("giới tính là: "+ checkbox[i].value);
+       }
+   }
+}

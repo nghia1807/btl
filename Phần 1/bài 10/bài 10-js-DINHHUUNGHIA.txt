@@ -1,0 +1,9 @@
+function showin4(){
+    var name= document.getElementById("username").value;
+    var addr=document.getElementById("addr").value;
+    var sdt=document.getElementById("SDT").value;
+    document.writeln("thông tin cá nhân");
+    document.writeln("Họ tên: "+ name);
+    document.writeln("Địa chỉ: "+ addr);
+    document.writeln("Số điện thoại: "+ sdt);
+}

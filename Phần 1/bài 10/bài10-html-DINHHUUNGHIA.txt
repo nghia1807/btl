@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2</title>
+</head>
+<body>
+<form>
+    <h3>Mẫu điền thông tin</h3>
+    <table>
+        <tr>
+            <td>Họ tên</td>
+            <td><input type="text" name="username" id="username"></td>
+        </tr>
+        <tr>
+            <td>Địa chỉ</td>
+            <td><input type="text" name="addr" id="addr"></td>
+        </tr>
+        <tr>
+            <td>Số điện thoại</td>
+            <td><input type="number" name="SDT" id="SDT"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="button" name="show" value="Hiển thị" onclick="showin4()">
+            </td>
+        </tr>
+    </table>
+</form>
+
+<script language="JavaScript" src="bai2.js"></script>
+</body>
+</html>
